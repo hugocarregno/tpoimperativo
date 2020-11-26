@@ -1,0 +1,43 @@
+tarea = {
+  "reportes":3,
+  "entrevistas":4,
+  "planificar":6,
+  "relevamiento":7,
+  "mantenimiento":8,
+  "edicion":5
+}
+
+lista_tareas = [tarea]
+
+trabajo = {
+  30000000: ["reportes"],
+  31111111: ["entrevistas"],
+  32222222: ["planificar"],
+  33333333: ["relevamiento"],
+  34444444: ["mantenimiento"],
+  35555555: ["edicion","entrevistas"]
+}
+
+lista_trabajos = [trabajo]
+
+poder = {
+  30000000 : "judicial",
+  31111111 : "prensa",
+  32222222 : "ejecutivo",
+  33333333 : "legislativo",
+  34444444 : "legislativo",
+  35555555 : "prensa"
+}
+
+lista_poder =[poder]
+
+partido = {
+  30000000 : "justicialista",
+  31111111 : "frenteparatodos",
+  32222222 : "mujeres",
+  33333333 : "cambiemos",
+  34444444 : "radical",
+  35555555 : "mujeres"
+}
+
+lista_partidos = [partido]
